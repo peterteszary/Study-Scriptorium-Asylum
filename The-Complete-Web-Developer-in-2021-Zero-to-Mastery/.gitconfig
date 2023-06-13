@@ -1,0 +1,6 @@
+[user]
+   name = {peterteszary}
+   email = {peterteszary@gmail.com}
+[credential]
+   helper = store --file ~/.git-credentials
+
