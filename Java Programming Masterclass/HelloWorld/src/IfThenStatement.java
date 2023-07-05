@@ -49,6 +49,9 @@ public class IfThenStatement {
         System.out.println("TheRemainder = " + theRemainder);
         boolean isNoRemainder = (theRemainder == 0) ? true : false;
         System.out.println("isNoRemainder = " + isNoRemainder);
+        if (!isNoRemainder) {
+            System.out.println("Got some Remainder");
+        }
 
     }
 }
