@@ -1,7 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
-            title: 'The lost empire',
+            title: 'Vue gyakorlás',
             author: 'Teszáry Péter',
             age: 5
         }
