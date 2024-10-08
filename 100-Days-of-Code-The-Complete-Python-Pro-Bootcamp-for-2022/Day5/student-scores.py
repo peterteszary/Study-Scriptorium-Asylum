@@ -2,8 +2,9 @@ student_scores = [150, 142, 185, 120, 171, 165, 134, 65, 76]
 
 total_exam_score = sum(student_scores)
 
-sum = 0
+max_score = 0
 for score in student_scores:
-    sum  += score
+    if score > max_score:
+        max_score = score
 
-print(sum)
+print(max_score)
